@@ -18,7 +18,7 @@ const addToCart = async() => {
     let quantity = document.getElementById("quantity").value;
     quantity = parseInt(quantity);
     if (quantity > 0) {
-        let result = await fetch(`http://localhost:8080/api/carts/${cart}`, {
+        let result = await fetch(`http://ecommerce-32240-production.up.railway.app/api/carts/${cart}`, {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify([{
