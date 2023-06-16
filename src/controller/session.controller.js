@@ -103,7 +103,7 @@ export default class SessionController {
                 subject: 'Reestablece tu contraseña',
                 html: `
                 <div style="background-color: black; color: green; display: flex; flex-direction: column; justify-content: center;  align-items: center;">
-                <h1>Para reestablecer tu contraseña haz click <a href="http://ecommerce-32240-production.up.railway.app/recoverLanding/${token}">aqui</a></h1>
+                <h1>Para reestablecer tu contraseña haz click <a href="https://ecommerce-32240-production.up.railway.app/recoverLanding/${token}">aqui</a></h1>
                 </div>
                 `});
             } catch (error) {
