@@ -46,7 +46,7 @@ El proyecto cuenta con varias APIs, las cuales son
  - tickets
  - messages
 
-Para acceder a la documentación de las mismas, ejecute la apliación y vaya a
+Para acceder a la documentación de las mismas, ejecute la aplicación y vaya a
 
 ```http
 /apidocs
